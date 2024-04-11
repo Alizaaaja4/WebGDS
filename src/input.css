@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 450px){
+    /* landing */
+    .tagline{
+        font-size: 10px;
+    }
+    .ico1{
+        width: 17px;
+    }
+    .jd1{
+        font-size: 25px;
+    }
+    .sb1{
+        font-size: 12px;
+    }
+    /* .img1{
+        width: 600px;
+        height: 180px;
+    } */
+    .war1{
+        font-size: 12px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .ico2{
+        width: 20px;
+    }
+    .jd2{
+        font-size: 22px;
+    }
+    .temp1{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .img2{
+        width: 40px;
+    }
+    .jd3{
+        font-size: 17px;
+    }
+    .sb2{
+        font-size: 13px;
+    }
+    .tg1{
+        font-size: 13px;
+    }
+    .jd4{
+        font-size: 27px;
+    }
+    .jd5{
+        font-size: 20px;
+    }
+    .sb3{
+        font-size: 13px;
+    }
+    .tagline2{
+        font-size: 13px;
+    }
+    .tg4{
+        font-size: 12px;
+    }
+    /* sejarah */
+    .jd6{
+        font-size: 28px;
+    }
+    .sb4{
+        font-size: 13px;
+    }
+    /* peraturan */
+    .tg2{
+        font-size: 17px;
+    }
+    .tg3{
+        font-size: 28px;
+    }
+    .sb5{
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width: 375px){
+    .ico4{
+        width: 50px;
+    }
+    .img2{
+        width: 35px;
+    }
+    .jd3{
+        font-size: 15px;
+    }
+    .sb2{
+        font-size: 10px;
+    }
+    .tg1{
+        font-size: 10px;
+    }
+    .jd4{
+        font-size: 25px;
+    }
+    .tg3{
+        font: 24px;
+    }
+  }
+@media (max-width: 320px){
+    .headerin{
+        column-gap: 10px;
+    }
+    .ico4{
+        width: 40px;
+    }
+}
